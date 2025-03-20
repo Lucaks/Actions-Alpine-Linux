@@ -13,3 +13,4 @@
 - 请参考这里: https://wiki.friendlyelec.com/wiki/index.php/Getting_Started_with_Alpine-Linux/zh
 ### 更新说明
 * 2025/03/14 首次发布
+test
