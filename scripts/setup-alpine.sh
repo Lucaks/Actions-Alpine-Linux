@@ -28,7 +28,7 @@ echo "ttyFIQ0::respawn:/sbin/agetty -L 1500000 ttyFIQ0 vt100" >> /etc/inittab
 echo "ttyFIQ0" >> /etc/securetty
 
 # root password
-echo "root:fa" | chpasswd
+echo "root:alpine" | chpasswd
 
 echo "$(date +%Y%m%d)" > /etc/rom-version
 [ -e /lib/firmware ] || mkdir -p /lib/firmware
